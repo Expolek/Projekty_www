@@ -1,0 +1,11 @@
+body{
+    background-color: teal;
+    color: blanchedalmond;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+h1 {background-color: darkslateblue;
+padding: 30px;
+text-align: center;
+}
