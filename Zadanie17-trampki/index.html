@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<link rel="stylesheet" href="style.css">
 <h1>Kornel Nawrocki</h1>
 <h2>Klasa: 1p</h2>
 <hr>
 <h1>Formularz konkursu "Podrasuj swoje buty!"</h1>
-<p>Chcesz zamienić swoje stare buty na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam, dlaczego sądzisz, że powinienieś pożegnać się ze swoimi wysłużonymi butami, a być może zostaniesz jednym z laureatów konkursu!</p>
+<p>Chcesz zamienić swoje stare buty na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam, dlaczego
+    sądzisz, że powinienieś pożegnać się ze swoimi wysłużonymi butami, a być może zostaniesz jednym z laureatów
+    konkursu!</p>
 <form method="post">
     <fieldset>
         <fieldset>
@@ -29,22 +32,24 @@
         <fieldset>
             <legend>Własny projekt butów</legend>
             <fieldset>
+                <legend>Kolor <i>(wybierz jeden)</i></legend>
                 <input type="radio" value="czerwony" name="kolor">czerwony</input><br>
                 <input type="radio" value="niebieski" name="kolor">niebieski</input><br>
                 <input type="radio" value="czarny" name="kolor">czarny</input> <br>
                 <input type="radio" value="srebrny" name="kolor">srebrny </input>
             </fieldset>
             <fieldset>
-                <legend>Opcje (możesz wybrać kilka)</legend>
-                <input type="checkbox" > Błyszczące sznurówki </input> <br>
-                <input type="checkbox" > Metalowe logo </input> <br>
-                <input type="checkbox" > Świecące podeszwy </input> <br>
-                <input type="checkbox" > Odtwarzanie MP3 </input>
+                <legend>Opcje <i>(możesz wybrać kilka)</i></legend>
+                <input type="checkbox"> Błyszczące sznurówki </input> <br>
+                <input type="checkbox"> Metalowe logo </input> <br>
+                <input type="checkbox"> Świecące podeszwy </input> <br>
+                <input type="checkbox"> Odtwarzanie MP3 </input>
             </fieldset>
             <fieldset>
                 <legend>Rozmiar</legend>
                 <label>Rozmiar zgodny ze standardowymi numerami butów</label>
-                <select name="rozmiar"><option> 37</option>
+                <select name="rozmiar">
+                    <option> 37</option>
                     <option> 38</option>
                     <option> 39</option>
                     <option> 40</option>
@@ -59,8 +64,8 @@
             </fieldset>
         </fieldset>
     </fieldset>
+    <input name="submit" type="submit" value="Podrasuj swoje buty!">
+    <input name="reset" type="reset" value="Reset">
 </form>
-<input type="submit" value="Podrasuj swoje buty!" name="wyslij">
-<input type="reset" value="Resetuj" name="zeruj">
 </body>
 </html>
