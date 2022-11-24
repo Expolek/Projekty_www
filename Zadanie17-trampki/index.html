@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Wybierz swoje trampki</title>
+    <title>Podrasuj swoje buty!</title>
+    <meta name="author" content="Kornel Nawrocki">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Zadanie 17 - zaprojektuj swoje trampki</h1>
-<h2>Autor: Kornel Nawrocki 1p_1</h2>
+<h1>Kornel Nawrocki</h1>
+<h2>Klasa: 1p</h2>
 <hr>
 <h1>Formularz konkursu "Podrasuj swoje buty!"</h1>
-<p>Chcesz zmienić swoje stare trampki na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam, dlaczego sądzisz że pownienieneś <i><b>pożegnać się</b></i> ze swoimi wysłużonymi butami, a może zostaniesz jednym z laureatów konkursu!</p>
-<fieldset>
-    <legend>Podstawowe dane</legend>
-</fieldset>
+<p>Chcesz zamienić swoje stare buty na nową parę zaprojektowanych przez siebie butów Forcefield? Napisz nam, dlaczego sądzisz, że powinienieś pożegnać się ze swoimi wysłużonymi butami, a być może zostaniesz jednym z laureatów konkursu!</p>
+<form method="post">
+    <fieldset>
+        <fieldset>
+            <legend>Podstawowe dane</legend>
+            <label>Imię i nazwisko:</label>
+            <input name="dane" value="" size="30"> <br>
+            <label for="email">E-mail:</label>
+            <input id="email" size="30"><br>
+            <label for="telephone">Nr telefonu</label>
+            <input id="telephone" size="30"><br>
+            <label> Moje buty są TAKIE stare...</label> <br>
+            <textarea name="opis" cols="37" rows="7" placeholder="Nie więcej niż 300 znaków"></textarea>
+        </fieldset>
+        <h1>Zaprojektuj własne trampki:</h1>
+        <fieldset>
+            <legend>Własny projekt butów</legend>
+            <fieldset>
+                <input type="radio" value="czerwony" name="kolor">czerwony</input><br>
+                <input type="radio" value="niebieski" name="kolor">niebieski</input><br>
+                <input type="radio" value="czarny" name="kolor">czarny</input> <br>
+                <input type="radio" value="srebrny" name="kolor">srebrny </input>
+            </fieldset>
+            <fieldset>
+                <legend>Opcje (możesz wybrać kilka)</legend>
+                <input type="checkbox" > Błyszczące sznurówki </input> <br>
+                <input type="checkbox" > Metalowe logo </input> <br>
+                <input type="checkbox" > Świecące podeszwy </input> <br>
+                <input type="checkbox" > Odtwarzanie MP3 </input>
+            </fieldset>
+            <fieldset>
+                <legend>Rozmiar</legend>
+                <label>Rozmiar zgodny ze standardowymi numerami butów</label>
+                <select name="rozmiar"><option> 37</option>
+                    <option> 38</option>
+                    <option> 39</option>
+                    <option> 40</option>
+                    <option> 41</option>
+                    <option> 42</option>
+                    <option> 43</option>
+                    <option> 44</option>
+                    <option> 45</option>
+                    <option> 46</option>
+                    <option> 47</option>
+                </select>
+            </fieldset>
+        </fieldset>
+    </fieldset>
+</form>
+<input type="submit" value="Podrasuj swoje buty!" name="wyslij">
+<input type="reset" value="Resetuj" name="zeruj">
 </body>
 </html>
