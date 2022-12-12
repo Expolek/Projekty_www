@@ -1,0 +1,168 @@
+body
+{
+	background-color: #b30000;
+	font-family: 'Lato', sans-serif;
+	background-image: url('choinka.jfif');
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	background-color: #b30000;
+	box-shadow: black 2px 2px 40px 4px;
+	text-align: center;
+
+}
+
+#menu
+{
+	margin-top: 20px;
+	color: #ffffff;
+	padding: 10px;
+	box-shadow: white 1px 1px 20px 2px;
+	text-align: center;
+	
+}
+
+#topbar
+{
+	background-color: darkred;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 170px;
+	width: 980px;
+
+}
+
+#topbarL
+{
+	float:left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#sidebar
+{
+	float: left;
+	width: 148px;
+	min-height: 620px;
+	padding:20px;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+	box-shadow: white 3px 3px 60px 6px;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 920px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: center;
+	font-size: large;
+	box-shadow: white 2px 2px 40px 4px;
+}
+
+#footer
+{
+	clear: both;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.option
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+
+}
+
+.option:hover
+{
+	background-color: #b30000;
+	cursor: pointer;
+}
+
+.optionL
+{
+	font-size:18px;
+	height:25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.optionL:hover
+{
+	background-color: #f36742;
+	color: white;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444;
+	color: #b30000;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+#glowna
+{
+	float: left;
+	padding: 40px;
+	width: 920px;
+	background-color: #b30000;
+	min-height: 300px;
+	text-align: center;
+	font-size: large;
+	box-shadow: white 2px 2px 40px 4px;
+}
+#title {
+	color: white;
+	text-align: center;
+}
