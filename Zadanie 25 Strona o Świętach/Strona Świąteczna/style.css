@@ -39,7 +39,7 @@ body
 
 #topbar
 {
-	background-color: darkred;
+	background-color: #b30000;
 	color: white;
 	padding: 10px;
 	margin-top: 20px;
@@ -67,23 +67,27 @@ body
 
 #content
 {
-	margin-left: 420px;
-	padding: 40px;
-	width: 920px;
+	clear: both;
+	color: black;
+	text-align: left;
+	padding: 20px;
+	font-size: 18px;
 	background-color: lightgrey;
-	min-height: 580px;
-	text-align: center;
-	font-size: large;
-	box-shadow: white 2px 2px 40px 4px;
+	width: 960px;
+	margin: auto;
+	box-shadow: white 1px 1px 20px 2px;
 }
 
 #footer
 {
 	clear: both;
-	color: black;
+	color: white;
 	text-align: center;
 	padding: 20px;
 	font-size: 18px;
+	background-color: #b30000;
+
+;
 }
 
 .option
@@ -112,13 +116,6 @@ body
 	border-bottom: 2px dotted #444444;
 }
 
-.optionL:hover
-{
-	background-color: #f36742;
-	color: white;
-	cursor: pointer;
-}
-
 .bigtitle
 {
 	font-size: 32px;
@@ -143,7 +140,7 @@ a {
 	float: left;
 	padding: 40px;
 	width: 920px;
-	background-color: #b30000;
+    background-color: lightgray;
 	min-height: 300px;
 	text-align: center;
 	font-size: large;
