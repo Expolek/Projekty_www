@@ -135,17 +135,6 @@ a {
 	text-decoration: none;
 	color: white;
 }
-#glowna
-{
-	float: left;
-	padding: 40px;
-	width: 920px;
-    background-color: lightgray;
-	min-height: 300px;
-	text-align: center;
-	font-size: large;
-	box-shadow: white 2px 2px 40px 4px;
-}
 #title {
 	color: white;
 	text-align: center;
