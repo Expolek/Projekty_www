@@ -20,17 +20,22 @@ body{
     color: white;
     width: 20%;
     height: 750px;
+    float: left;
+}
+
+#panel-prawy{
+    width: 80%;
+    height: 750px;
+    float: left;
 }
 #panel-prawy-gorny{
     background-color: #FFF4CC;
-    width: 80%;
     height: 300px;
     text-align: center;
 }
 
 #panel-prawy-dolny{
     background-color: #DBCC93;
-    width: 80%;
     height: 450px;
     text-align: center;
 }
@@ -39,6 +44,7 @@ body{
     background-color:#9692B1;
     color: white;
     text-align: right;
+    clear: both;
 }
 
 a{
