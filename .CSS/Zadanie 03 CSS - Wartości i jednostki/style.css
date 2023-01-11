@@ -1,0 +1,23 @@
+html{
+    font-size: 1em;
+    padding: 1em;
+}
+h1{
+    font-size: 2.75em;
+    padding: 0.5em;
+}
+
+#p1{
+    font-size: 175%;
+    padding: 2rem;
+}
+
+#p2{
+    font-size: 175%;
+    padding: 2em;
+}
+
+ol{
+    font-size: 1.25rem;
+    padding: 10%;
+}
